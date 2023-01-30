@@ -64,33 +64,38 @@ let allMusic = [{
         img: "9",
         src: "9"
     },
-                 {
+      {
         name: "Em Là Kẻ Đáng Thương",
         artist: "Lê Đức Anh",
         img: "10",
         src: "10"
     },
+                {      
           name: "Vương Vấn",
         artist: "Lê Đức Anh",
         img: "10",
         src: "11"
     },
+                {
              name: "Thuyền Quyên",
         artist: "Lê Đức Anh",
         img: "10",
         src: "12"
     },
+                {
              name: "Cho Em Một Lần Yêu",
         artist: "Lê Đức Anh",
         img: "10",
         src: "13"
     },
+                {
             name: "Như Anh Đã Thấy",
         artist: "Lê Đức Anh",
         img: "10",
         src: "14"
 
 },
+          {
           name: "Anh Mới Chính là Người Em yêu",
         artist: "Lê Đức Anh",
         img: "10",
