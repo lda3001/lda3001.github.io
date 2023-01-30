@@ -85,9 +85,15 @@ let allMusic = [{
         img: "10",
         src: "13"
     },
+            name: "Như Anh Đã Thấy",
+        artist: "Lê Đức Anh",
+        img: "10",
+        src: "14"
+
+},
           name: "Anh Mới Chính là Người Em yêu",
         artist: "Lê Đức Anh",
         img: "10",
-        src: "1"
-    },   
+        src: "15"
+      
 ];
