@@ -100,5 +100,5 @@ let allMusic = [{
         artist: "Lê Đức Anh",
         img: "10",
         src: "15"
-      
+          },
 ];
