@@ -73,32 +73,32 @@ let allMusic = [{
                 {      
           name: "Vương Vấn",
         artist: "Lê Đức Anh",
-        img: "10",
+        img: "11",
         src: "11"
     },
                 {
              name: "Thuyền Quyên",
         artist: "Lê Đức Anh",
-        img: "10",
+        img: "12",
         src: "12"
     },
                 {
              name: "Cho Em Một Lần Yêu",
         artist: "Lê Đức Anh",
-        img: "10",
+        img: "13",
         src: "13"
     },
                 {
             name: "Như Anh Đã Thấy",
         artist: "Lê Đức Anh",
-        img: "10",
+        img: "14",
         src: "14"
 
 },
           {
           name: "Anh Mới Chính là Người Em yêu",
         artist: "Lê Đức Anh",
-        img: "10",
+        img: "15",
         src: "15"
           },
 ];
