@@ -11,6 +11,7 @@ const wrapper = document.querySelector(".wrapper"),
     musicList = wrapper.querySelector(".music-list"),
     moreMusicBtn = wrapper.querySelector("#more-music"),
     closemoreMusic = musicList.querySelector("#close");
+    volume_silder = document.querySelector(".volume_silder")
 
 let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);
 isMusicPaused = true;
@@ -61,6 +62,9 @@ function nextMusic() {
     playingSong();
 }
 
+function setVolume(){
+    curr_track.volume = volume_silder.value / 100;
+}
 
 playPauseBtn.addEventListener("click", () => {
     const isMusicPlay = wrapper.classList.contains("paused");
