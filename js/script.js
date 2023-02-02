@@ -10,8 +10,8 @@ const wrapper = document.querySelector(".wrapper"),
     progressBar = progressArea.querySelector(".progress-bar"),
     musicList = wrapper.querySelector(".music-list"),
     moreMusicBtn = wrapper.querySelector("#more-music"),
-    closemoreMusic = musicList.querySelector("#close");
-    volume_silder = document.querySelector(".volume_silder")
+    closemoreMusic = musicList.querySelector("#close"),
+    volume_silder = wrapper.querySelector(".volume_silder");
 
 let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);
 isMusicPaused = true;
