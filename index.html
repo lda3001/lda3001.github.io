@@ -21,7 +21,7 @@
     <style>
 	 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,600&display=swap");
         @import url("//fontawesome.io/assets/font-awesome/css/font-awesome.css");
-       <!-- @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600"); -->
+     
         /*
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
@@ -1014,22 +1014,22 @@
             padding: 0.75em 0.75em;
         }
         .volume_slider{
-    -webkit-appearance: none;
-    transform: rotate(270deg);
-    position: absolute;
-    left: -56px;
-    bottom: 10rem;
-    background: var(--lightbshadow);
-    
-    overflow: hidden;
+	    -webkit-appearance: none;
+	    transform: rotate(-90deg);
+	    position: absolute;
+	    left: -56px;
+	    bottom: 10rem;
+	     border-radius: 50px;
+	    overflow: hidden;
+	   height: 6px;
+	   cursor: pointer; 
 }
 
-.volume_slider::-webkit-scrollbar-thumb{
+.volume_slider::-webkit-slider-thumb{
     -webkit-appearance: none;
-    background:var(--pink);
+     background: linear-gradient(90deg, var(--pink) 0%, var(--violet) 100%);
     width: 10px;
     height: 40px;
-    
     box-shadow: -200px 0 1px 200px var(--pink);
 }
         table th {
