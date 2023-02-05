@@ -11,6 +11,8 @@ const wrapper = document.querySelector(".wrapper"),
     musicList = wrapper.querySelector(".music-list"),
     moreMusicBtn = wrapper.querySelector("#more-music"),
     closemoreMusic = musicList.querySelector("#close"),
+      volumeSlider = wrapper.querySelector(".volume_slider"),
+    volumeBtn = wrapper.querySelector(".fa-volume-down"),
     volume_silder = wrapper.querySelector(".volume_silder");
 
 let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);
@@ -83,6 +85,14 @@ nextBtn.addEventListener("click", () => {
     nextMusic();
 });
 
+volumeBtn.addEventListener("click", () =>{
+    volumeBtn.classList.toggle('active');
+    volumeSlider.classList.toggle('active');
+});
+
+volumeSlider.addEventListener('input', () => {
+    mainAudio.volume = volumeSlider.value;
+});
 
 mainAudio.addEventListener("timeupdate", (e) => {
     const currentTime = e.target.currentTime;
