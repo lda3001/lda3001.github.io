@@ -12,8 +12,7 @@ const wrapper = document.querySelector(".wrapper"),
     moreMusicBtn = wrapper.querySelector("#more-music"),
     closemoreMusic = musicList.querySelector("#close"),
       volumeSlider = wrapper.querySelector(".volume_slider"),
-    volumeBtn = wrapper.querySelector(".fa-volume-down"),
-    volume_silder = wrapper.querySelector(".volume_silder");
+    volumeBtn = wrapper.querySelector(".fa-volume-down");
 
 let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);
 isMusicPaused = true;
