@@ -11,7 +11,7 @@ const wrapper = document.querySelector(".wrapper"),
     musicList = wrapper.querySelector(".music-list"),
     moreMusicBtn = wrapper.querySelector("#more-music"),
     volumeSlider = wrapper.querySelector(".volume_slider"),
-    volumeBtn = wrapper.querySelector(".fa-volume-down"),
+    volumeBtn = wrapper.querySelector(".fa-volume-up"),
     closemoreMusic = musicList.querySelector("#close");
       
 
