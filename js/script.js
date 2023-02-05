@@ -10,9 +10,10 @@ const wrapper = document.querySelector(".wrapper"),
     progressBar = progressArea.querySelector(".progress-bar"),
     musicList = wrapper.querySelector(".music-list"),
     moreMusicBtn = wrapper.querySelector("#more-music"),
-    closemoreMusic = musicList.querySelector("#close"),
-      volumeSlider = wrapper.querySelector(".volume_slider"),
-    volumeBtn = wrapper.querySelector(".fa-volume-down");
+    volumeSlider = wrapper.querySelector(".volume_slider"),
+    volumeBtn = wrapper.querySelector(".fa-volume-down"),
+    closemoreMusic = musicList.querySelector("#close");
+      
 
 let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);
 isMusicPaused = true;
@@ -89,7 +90,7 @@ volumeBtn.addEventListener("click", () =>{
     volumeSlider.classList.toggle('active');
 });
 
-volumeSlider.addEventListener('input', () => {
+volumeSlider.addEventListener("input", () => {
     mainAudio.volume = volumeSlider.value;
 });
 
